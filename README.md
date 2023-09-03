@@ -1,2 +1,2 @@
 # astro-build
- using astro build framework
+This was a learning project to learn how to build and deploy with astro.

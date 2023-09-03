@@ -1,0 +1,10 @@
+---
+// src/pages/index.astro
+import SiteLayout from '../layouts/SiteLayout.astro';
+import MyButton from '../components/MyButton.jsx';
+---
+<SiteLayout>
+    <h1>Astro</h1>
+    <p>This content is rendered in the slot </p>
+    <MyButton client:load />
+</SiteLayout>
